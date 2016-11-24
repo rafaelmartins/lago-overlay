@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>rmartins@redhat.com</email>
+		<name>Rafael Martins</name>
+	</maintainer>
+	<longdescription lang="en">
+		The scp.py module uses a paramiko transport to send and recieve files via the
+		scp1 protocol. This is the protocol as referenced from the openssh scp program,
+		and has only been tested with this implementation.
+	</longdescription>
+</pkgmetadata>
