@@ -16,5 +16,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-python/paramiko"
+DEPEND="dev-python/paramiko[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
